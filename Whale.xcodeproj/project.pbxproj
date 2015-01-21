@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B95C8581A05F2DD00BDC15D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B95C8571A05F2DD00BDC15D /* main.m */; };
+		0B95C85B1A05F2DD00BDC15D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B95C85A1A05F2DD00BDC15D /* AppDelegate.m */; };
+		0B95C85E1A05F2DD00BDC15D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B95C85D1A05F2DD00BDC15D /* ViewController.m */; };
+		0B95C8611A05F2DD00BDC15D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C85F1A05F2DD00BDC15D /* Main.storyboard */; };
+		0B95C8631A05F2DD00BDC15D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8621A05F2DD00BDC15D /* Images.xcassets */; };
+		0B95C8661A05F2DD00BDC15D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8641A05F2DD00BDC15D /* LaunchScreen.xib */; };
+		0B95C8721A05F2DD00BDC15D /* WhaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B95C8711A05F2DD00BDC15D /* WhaleTests.m */; };
+		0B95C87E1A05F30200BDC15D /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B95C87C1A05F30200BDC15D /* MenuViewController.m */; };
+		0B95C87F1A05F30200BDC15D /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C87D1A05F30200BDC15D /* MenuViewController.xib */; };
+		0B95C8CB1A05FF7D00BDC15D /* WhaleApply1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8BA1A05FF7D00BDC15D /* WhaleApply1.png */; };
+		0B95C8CC1A05FF7D00BDC15D /* WhaleApply2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8BB1A05FF7D00BDC15D /* WhaleApply2.png */; };
+		0B95C8CF1A05FF7D00BDC15D /* WhaleApply5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8BE1A05FF7D00BDC15D /* WhaleApply5.png */; };
+		0B95C8D01A05FF7D00BDC15D /* WhaleApproved.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8BF1A05FF7D00BDC15D /* WhaleApproved.png */; };
+		0B95C8D11A05FF7D00BDC15D /* WhaleBalance.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8C01A05FF7D00BDC15D /* WhaleBalance.png */; };
+		0B95C8D21A05FF7D00BDC15D /* WhaleDenied.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8C11A05FF7D00BDC15D /* WhaleDenied.png */; };
+		0B95C8D31A05FF7D00BDC15D /* WhaleLoading.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8C21A05FF7D00BDC15D /* WhaleLoading.png */; };
+		0B95C8D51A05FF7D00BDC15D /* WhaleOpening.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8C41A05FF7D00BDC15D /* WhaleOpening.png */; };
+		0B95C8D61A05FF7D00BDC15D /* WhaleOwed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8C51A05FF7D00BDC15D /* WhaleOwed.png */; };
+		0B95C8D71A05FF7D00BDC15D /* WhalePay.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8C61A05FF7D00BDC15D /* WhalePay.png */; };
+		0B95C8D81A05FF7D00BDC15D /* WhaleSponsor1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8C71A05FF7D00BDC15D /* WhaleSponsor1.png */; };
+		0B95C8E41A05FFB500BDC15D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8DC1A05FFB500BDC15D /* Icon@2x.png */; };
+		0B95C8E51A05FFB500BDC15D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8DD1A05FFB500BDC15D /* Icon.png */; };
+		0B95C8E61A05FFB500BDC15D /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8DE1A05FFB500BDC15D /* Icon-40.png */; };
+		0B95C8E71A05FFB500BDC15D /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8DF1A05FFB500BDC15D /* Icon-29@2x.png */; };
+		0B95C8E81A05FFB500BDC15D /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8E01A05FFB500BDC15D /* Icon-40@2x.png */; };
+		0B95C8E91A05FFB500BDC15D /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8E11A05FFB500BDC15D /* Icon-60.png */; };
+		0B95C8EA1A05FFB500BDC15D /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8E21A05FFB500BDC15D /* Icon-29.png */; };
+		0B95C8EB1A05FFB500BDC15D /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8E31A05FFB500BDC15D /* Icon-60@2x.png */; };
+		0B95C8F01A061D4700BDC15D /* WhaleMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8ED1A061D4700BDC15D /* WhaleMenu.png */; };
+		0B95C8F11A061D4700BDC15D /* WhalePaychoice.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8EE1A061D4700BDC15D /* WhalePaychoice.png */; };
+		0B95C8F41A06219900BDC15D /* WhaleApply4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8F21A06219900BDC15D /* WhaleApply4.png */; };
+		0B95C8F51A06219900BDC15D /* WhaleBitcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8F31A06219900BDC15D /* WhaleBitcode.png */; };
+		0B95C8F71A0692DD00BDC15D /* WhaleSponsor3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8F61A0692DD00BDC15D /* WhaleSponsor3.png */; };
+		0B95C8F91A0692FF00BDC15D /* WhaleSponsor4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8F81A0692FF00BDC15D /* WhaleSponsor4.png */; };
+		0B95C8FB1A06931F00BDC15D /* WhaleApply3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8FA1A06931F00BDC15D /* WhaleApply3.png */; };
+		0B95C8FD1A06940700BDC15D /* WhaleSponsor2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B95C8FC1A06940700BDC15D /* WhaleSponsor2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B95C86C1A05F2DD00BDC15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B95C84A1A05F2DD00BDC15D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B95C8511A05F2DD00BDC15D;
+			remoteInfo = Whale;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B95C8521A05F2DD00BDC15D /* Whale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whale.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B95C8561A05F2DD00BDC15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B95C8571A05F2DD00BDC15D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B95C8591A05F2DD00BDC15D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0B95C85A1A05F2DD00BDC15D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0B95C85C1A05F2DD00BDC15D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0B95C85D1A05F2DD00BDC15D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0B95C8601A05F2DD00BDC15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B95C8621A05F2DD00BDC15D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0B95C8651A05F2DD00BDC15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0B95C86B1A05F2DD00BDC15D /* WhaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B95C8701A05F2DD00BDC15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B95C8711A05F2DD00BDC15D /* WhaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhaleTests.m; sourceTree = "<group>"; };
+		0B95C87B1A05F30200BDC15D /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		0B95C87C1A05F30200BDC15D /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		0B95C87D1A05F30200BDC15D /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		0B95C8BA1A05FF7D00BDC15D /* WhaleApply1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleApply1.png; sourceTree = "<group>"; };
+		0B95C8BB1A05FF7D00BDC15D /* WhaleApply2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleApply2.png; sourceTree = "<group>"; };
+		0B95C8BE1A05FF7D00BDC15D /* WhaleApply5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleApply5.png; sourceTree = "<group>"; };
+		0B95C8BF1A05FF7D00BDC15D /* WhaleApproved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleApproved.png; sourceTree = "<group>"; };
+		0B95C8C01A05FF7D00BDC15D /* WhaleBalance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleBalance.png; sourceTree = "<group>"; };
+		0B95C8C11A05FF7D00BDC15D /* WhaleDenied.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleDenied.png; sourceTree = "<group>"; };
+		0B95C8C21A05FF7D00BDC15D /* WhaleLoading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleLoading.png; sourceTree = "<group>"; };
+		0B95C8C41A05FF7D00BDC15D /* WhaleOpening.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleOpening.png; sourceTree = "<group>"; };
+		0B95C8C51A05FF7D00BDC15D /* WhaleOwed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleOwed.png; sourceTree = "<group>"; };
+		0B95C8C61A05FF7D00BDC15D /* WhalePay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhalePay.png; sourceTree = "<group>"; };
+		0B95C8C71A05FF7D00BDC15D /* WhaleSponsor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleSponsor1.png; sourceTree = "<group>"; };
+		0B95C8DC1A05FFB500BDC15D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0B95C8DD1A05FFB500BDC15D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0B95C8DE1A05FFB500BDC15D /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		0B95C8DF1A05FFB500BDC15D /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@2x.png"; sourceTree = "<group>"; };
+		0B95C8E01A05FFB500BDC15D /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		0B95C8E11A05FFB500BDC15D /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		0B95C8E21A05FFB500BDC15D /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		0B95C8E31A05FFB500BDC15D /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		0B95C8ED1A061D4700BDC15D /* WhaleMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleMenu.png; sourceTree = "<group>"; };
+		0B95C8EE1A061D4700BDC15D /* WhalePaychoice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhalePaychoice.png; sourceTree = "<group>"; };
+		0B95C8F21A06219900BDC15D /* WhaleApply4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleApply4.png; sourceTree = "<group>"; };
+		0B95C8F31A06219900BDC15D /* WhaleBitcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleBitcode.png; sourceTree = "<group>"; };
+		0B95C8F61A0692DD00BDC15D /* WhaleSponsor3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleSponsor3.png; sourceTree = "<group>"; };
+		0B95C8F81A0692FF00BDC15D /* WhaleSponsor4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleSponsor4.png; sourceTree = "<group>"; };
+		0B95C8FA1A06931F00BDC15D /* WhaleApply3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleApply3.png; sourceTree = "<group>"; };
+		0B95C8FC1A06940700BDC15D /* WhaleSponsor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhaleSponsor2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B95C84F1A05F2DD00BDC15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B95C8681A05F2DD00BDC15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B95C8491A05F2DD00BDC15D = {
+			isa = PBXGroup;
+			children = (
+				0B95C8BA1A05FF7D00BDC15D /* WhaleApply1.png */,
+				0B95C8BB1A05FF7D00BDC15D /* WhaleApply2.png */,
+				0B95C8BE1A05FF7D00BDC15D /* WhaleApply5.png */,
+				0B95C8F21A06219900BDC15D /* WhaleApply4.png */,
+				0B95C8FA1A06931F00BDC15D /* WhaleApply3.png */,
+				0B95C8F31A06219900BDC15D /* WhaleBitcode.png */,
+				0B95C8DC1A05FFB500BDC15D /* Icon@2x.png */,
+				0B95C8DD1A05FFB500BDC15D /* Icon.png */,
+				0B95C8DE1A05FFB500BDC15D /* Icon-40.png */,
+				0B95C8DF1A05FFB500BDC15D /* Icon-29@2x.png */,
+				0B95C8E01A05FFB500BDC15D /* Icon-40@2x.png */,
+				0B95C8E11A05FFB500BDC15D /* Icon-60.png */,
+				0B95C8E21A05FFB500BDC15D /* Icon-29.png */,
+				0B95C8E31A05FFB500BDC15D /* Icon-60@2x.png */,
+				0B95C8BF1A05FF7D00BDC15D /* WhaleApproved.png */,
+				0B95C8F61A0692DD00BDC15D /* WhaleSponsor3.png */,
+				0B95C8C01A05FF7D00BDC15D /* WhaleBalance.png */,
+				0B95C8C11A05FF7D00BDC15D /* WhaleDenied.png */,
+				0B95C8C21A05FF7D00BDC15D /* WhaleLoading.png */,
+				0B95C8C41A05FF7D00BDC15D /* WhaleOpening.png */,
+				0B95C8C51A05FF7D00BDC15D /* WhaleOwed.png */,
+				0B95C8C61A05FF7D00BDC15D /* WhalePay.png */,
+				0B95C8F81A0692FF00BDC15D /* WhaleSponsor4.png */,
+				0B95C8FC1A06940700BDC15D /* WhaleSponsor2.png */,
+				0B95C8C71A05FF7D00BDC15D /* WhaleSponsor1.png */,
+				0B95C8ED1A061D4700BDC15D /* WhaleMenu.png */,
+				0B95C8EE1A061D4700BDC15D /* WhalePaychoice.png */,
+				0B95C8541A05F2DD00BDC15D /* Whale */,
+				0B95C86E1A05F2DD00BDC15D /* WhaleTests */,
+				0B95C8531A05F2DD00BDC15D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B95C8531A05F2DD00BDC15D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B95C8521A05F2DD00BDC15D /* Whale.app */,
+				0B95C86B1A05F2DD00BDC15D /* WhaleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B95C8541A05F2DD00BDC15D /* Whale */ = {
+			isa = PBXGroup;
+			children = (
+				0B95C8591A05F2DD00BDC15D /* AppDelegate.h */,
+				0B95C85A1A05F2DD00BDC15D /* AppDelegate.m */,
+				0B95C85C1A05F2DD00BDC15D /* ViewController.h */,
+				0B95C85D1A05F2DD00BDC15D /* ViewController.m */,
+				0B95C87B1A05F30200BDC15D /* MenuViewController.h */,
+				0B95C87C1A05F30200BDC15D /* MenuViewController.m */,
+				0B95C87D1A05F30200BDC15D /* MenuViewController.xib */,
+				0B95C85F1A05F2DD00BDC15D /* Main.storyboard */,
+				0B95C8621A05F2DD00BDC15D /* Images.xcassets */,
+				0B95C8641A05F2DD00BDC15D /* LaunchScreen.xib */,
+				0B95C8551A05F2DD00BDC15D /* Supporting Files */,
+			);
+			path = Whale;
+			sourceTree = "<group>";
+		};
+		0B95C8551A05F2DD00BDC15D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B95C8561A05F2DD00BDC15D /* Info.plist */,
+				0B95C8571A05F2DD00BDC15D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B95C86E1A05F2DD00BDC15D /* WhaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B95C8711A05F2DD00BDC15D /* WhaleTests.m */,
+				0B95C86F1A05F2DD00BDC15D /* Supporting Files */,
+			);
+			path = WhaleTests;
+			sourceTree = "<group>";
+		};
+		0B95C86F1A05F2DD00BDC15D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B95C8701A05F2DD00BDC15D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B95C8511A05F2DD00BDC15D /* Whale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B95C8751A05F2DD00BDC15D /* Build configuration list for PBXNativeTarget "Whale" */;
+			buildPhases = (
+				0B95C84E1A05F2DD00BDC15D /* Sources */,
+				0B95C84F1A05F2DD00BDC15D /* Frameworks */,
+				0B95C8501A05F2DD00BDC15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Whale;
+			productName = Whale;
+			productReference = 0B95C8521A05F2DD00BDC15D /* Whale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B95C86A1A05F2DD00BDC15D /* WhaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B95C8781A05F2DD00BDC15D /* Build configuration list for PBXNativeTarget "WhaleTests" */;
+			buildPhases = (
+				0B95C8671A05F2DD00BDC15D /* Sources */,
+				0B95C8681A05F2DD00BDC15D /* Frameworks */,
+				0B95C8691A05F2DD00BDC15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B95C86D1A05F2DD00BDC15D /* PBXTargetDependency */,
+			);
+			name = WhaleTests;
+			productName = WhaleTests;
+			productReference = 0B95C86B1A05F2DD00BDC15D /* WhaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B95C84A1A05F2DD00BDC15D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alex White";
+				TargetAttributes = {
+					0B95C8511A05F2DD00BDC15D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					0B95C86A1A05F2DD00BDC15D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 0B95C8511A05F2DD00BDC15D;
+					};
+				};
+			};
+			buildConfigurationList = 0B95C84D1A05F2DD00BDC15D /* Build configuration list for PBXProject "Whale" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B95C8491A05F2DD00BDC15D;
+			productRefGroup = 0B95C8531A05F2DD00BDC15D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B95C8511A05F2DD00BDC15D /* Whale */,
+				0B95C86A1A05F2DD00BDC15D /* WhaleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B95C8501A05F2DD00BDC15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B95C8FB1A06931F00BDC15D /* WhaleApply3.png in Resources */,
+				0B95C8D61A05FF7D00BDC15D /* WhaleOwed.png in Resources */,
+				0B95C8D81A05FF7D00BDC15D /* WhaleSponsor1.png in Resources */,
+				0B95C8F91A0692FF00BDC15D /* WhaleSponsor4.png in Resources */,
+				0B95C8611A05F2DD00BDC15D /* Main.storyboard in Resources */,
+				0B95C8EB1A05FFB500BDC15D /* Icon-60@2x.png in Resources */,
+				0B95C8CF1A05FF7D00BDC15D /* WhaleApply5.png in Resources */,
+				0B95C8E41A05FFB500BDC15D /* Icon@2x.png in Resources */,
+				0B95C8D11A05FF7D00BDC15D /* WhaleBalance.png in Resources */,
+				0B95C8EA1A05FFB500BDC15D /* Icon-29.png in Resources */,
+				0B95C8CC1A05FF7D00BDC15D /* WhaleApply2.png in Resources */,
+				0B95C8E61A05FFB500BDC15D /* Icon-40.png in Resources */,
+				0B95C8E81A05FFB500BDC15D /* Icon-40@2x.png in Resources */,
+				0B95C8D71A05FF7D00BDC15D /* WhalePay.png in Resources */,
+				0B95C8E51A05FFB500BDC15D /* Icon.png in Resources */,
+				0B95C8E91A05FFB500BDC15D /* Icon-60.png in Resources */,
+				0B95C8F11A061D4700BDC15D /* WhalePaychoice.png in Resources */,
+				0B95C8D01A05FF7D00BDC15D /* WhaleApproved.png in Resources */,
+				0B95C8D51A05FF7D00BDC15D /* WhaleOpening.png in Resources */,
+				0B95C8FD1A06940700BDC15D /* WhaleSponsor2.png in Resources */,
+				0B95C8661A05F2DD00BDC15D /* LaunchScreen.xib in Resources */,
+				0B95C8631A05F2DD00BDC15D /* Images.xcassets in Resources */,
+				0B95C8F51A06219900BDC15D /* WhaleBitcode.png in Resources */,
+				0B95C8D21A05FF7D00BDC15D /* WhaleDenied.png in Resources */,
+				0B95C8F01A061D4700BDC15D /* WhaleMenu.png in Resources */,
+				0B95C8D31A05FF7D00BDC15D /* WhaleLoading.png in Resources */,
+				0B95C8F41A06219900BDC15D /* WhaleApply4.png in Resources */,
+				0B95C8F71A0692DD00BDC15D /* WhaleSponsor3.png in Resources */,
+				0B95C8CB1A05FF7D00BDC15D /* WhaleApply1.png in Resources */,
+				0B95C8E71A05FFB500BDC15D /* Icon-29@2x.png in Resources */,
+				0B95C87F1A05F30200BDC15D /* MenuViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B95C8691A05F2DD00BDC15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B95C84E1A05F2DD00BDC15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B95C85E1A05F2DD00BDC15D /* ViewController.m in Sources */,
+				0B95C85B1A05F2DD00BDC15D /* AppDelegate.m in Sources */,
+				0B95C8581A05F2DD00BDC15D /* main.m in Sources */,
+				0B95C87E1A05F30200BDC15D /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B95C8671A05F2DD00BDC15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B95C8721A05F2DD00BDC15D /* WhaleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B95C86D1A05F2DD00BDC15D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B95C8511A05F2DD00BDC15D /* Whale */;
+			targetProxy = 0B95C86C1A05F2DD00BDC15D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B95C85F1A05F2DD00BDC15D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B95C8601A05F2DD00BDC15D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B95C8641A05F2DD00BDC15D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B95C8651A05F2DD00BDC15D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B95C8731A05F2DD00BDC15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B95C8741A05F2DD00BDC15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B95C8761A05F2DD00BDC15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Whale/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B95C8771A05F2DD00BDC15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Whale/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0B95C8791A05F2DD00BDC15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WhaleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whale.app/Whale";
+			};
+			name = Debug;
+		};
+		0B95C87A1A05F2DD00BDC15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WhaleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Whale.app/Whale";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B95C84D1A05F2DD00BDC15D /* Build configuration list for PBXProject "Whale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B95C8731A05F2DD00BDC15D /* Debug */,
+				0B95C8741A05F2DD00BDC15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B95C8751A05F2DD00BDC15D /* Build configuration list for PBXNativeTarget "Whale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B95C8761A05F2DD00BDC15D /* Debug */,
+				0B95C8771A05F2DD00BDC15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B95C8781A05F2DD00BDC15D /* Build configuration list for PBXNativeTarget "WhaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B95C8791A05F2DD00BDC15D /* Debug */,
+				0B95C87A1A05F2DD00BDC15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B95C84A1A05F2DD00BDC15D /* Project object */;
+}
